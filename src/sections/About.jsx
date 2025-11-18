@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import Globe from 'react-globe.gl';
 
 import Button from '../components/Button.jsx';
@@ -14,6 +14,16 @@ const About = () => {
       setHasCopied(false);
     }, 2000);
   };
+
+  const globeRef = useRef();
+
+  useEffect(() => {
+    // ← Disable zoom
+    globeRef.current.pointOfView(
+      { lat: 40.1872, lng: 44.5152, altitude: 1.8 }, // adjust altitude if needed
+      1500
+    );
+  }, []);
 
   return (
     <section className="c-space my-20" id="about">
@@ -50,6 +60,7 @@ const About = () => {
           <div className="grid-container">
             <div className="rounded-3xl w-full sm:h-[326px] h-fit flex justify-center items-center">
               <Globe
+                ref={globeRef}
                 height={326}
                 width={326}
                 backgroundColor="rgba(0, 0, 0, 0)"
@@ -58,13 +69,13 @@ const About = () => {
                 showGraticules
                 globeImageUrl="//unpkg.com/three-globe/example/img/earth-night.jpg"
                 bumpImageUrl="//unpkg.com/three-globe/example/img/earth-topology.png"
-                labelsData={[{ lat: 40, lng: -100, text: 'Rjieka, Croatia', color: 'white', size: 15 }]}
+                labelsData={[{ lat: 40.1872, lng: 44.5152, text: 'Yerevan, Armenia', color: 'white' }]}
               />
             </div>
             <div>
               <p className="grid-headtext">I’m very flexible with time zone communications & locations</p>
-              <p className="grid-subtext">I&apos;m based in Yerevan, Armenia and open to remote work worldwide.</p>
-              <Button name="Contact Me" isBeam containerClass="w-full mt-10" />
+              <p className="grid-subtext">I&apos;m based in Yerevan, Armenia (GMT+4) and open to remote work worldwide.</p>
+              {/*<Button name="Contact Me" isBeam containerClass="w-full mt-10" />*/}
             </div>
           </div>
         </div>
@@ -76,8 +87,7 @@ const About = () => {
             <div>
               <p className="grid-headtext">My Passion for Coding</p>
               <p className="grid-subtext">
-                I love solving problems and building things through code. Programming isn&apos;t just my
-                profession—it&apos;s my passion. I enjoy exploring new technologies, and enhancing my skills.
+                I’ve loved solving problems since school — from math challenges to award-winning informatics competitions. With a physics background, engineering comes naturally to me, and coding is where that passion comes alive.
               </p>
             </div>
           </div>
