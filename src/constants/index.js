@@ -167,7 +167,7 @@ export const workExperiences = [
     title:
       "Led the development and scaling of a major European travel booking and management platform used by thousands daily. Directed hiring, onboarding, and mentoring of frontend engineers while fostering a strong engineering culture. Collaborated closely with design, backend, and product teams to deliver seamless user experiences from concept to deployment.",
     icon: 'https://cdn.brandfetch.io/invia.de/fallback/lettermark/theme/dark/h/256/w/256/icon?c=1bfwsmEH20zzEfSNTed',
-    animation: 'victory',
+    rotation: [0.5, -Math.PI / 5, 0],
   },
   {
     id: 2,
@@ -178,26 +178,28 @@ export const workExperiences = [
     title:
       "Contributed to VMware’s cloud observability platform (Wavefront), building high-performance visualization components for real-time metrics dashboards. Enhanced analytics experiences using D3.js, Highcharts, Virtualizer, and Html2pdf, improving scalability and system responsiveness.",
     icon: 'https://www.vmware.com/vm-favicon-96x96.png',
-    animation: 'clapping',
+    rotation: [0, -Math.PI / 5, 0],
   },
   {
     id: 3,
     name: 'SFL',
+    link: 'https://www.instagram.com/sfl_official/',
     pos: 'Junior Frontend Engineer',
     duration: '2017 - 2019',
     title:
       "Developed features for WeAdapt, an advanced online video editor for marketers and creators. Built and maintained core UI elements including the timeline, preview canvas, and export pipeline using Fabric.js and AWS S3, ensuring smooth editing workflows.",
     icon: 'https://cdn.staff.am/staff.am/upload/c/2/0/a/c20a4428.png.webp',
-    animation: 'salute',
+    rotation: [0.5, -Math.PI / 3, 0],
   },
   {
     id: 4,
     name: 'Smart Production',
+    link: 'https://www.smp.am/',
     pos: 'Full-stack Engineer',
     duration: '2014 - 2017',
     title:
       "Delivered 10+ full-stack web applications and CMS-driven business platforms across e-commerce, hospitality, and healthcare industries. Designed back-end architectures and responsive UIs, led small development teams, collaborated directly with clients, and ensured long-term maintainable solutions.",
     icon: 'https://media.licdn.com/dms/image/v2/C4D0BAQFA4ui9CWmn6g/company-logo_200_200/company-logo_200_200/0/1630550297741/smart_production_logo?e=2147483647&v=beta&t=pByDE7sE3p1F8BtsVuI6UzqqVemFTnxekeLM0sSFPCo',
-    animation: 'wave',
+    rotation: [0.5, -Math.PI / 2, 0],
   },
 ];
