@@ -8,9 +8,6 @@ const Footer = () => {
         <a className="social-icon" href="https://wakcination.t.me" target="_blank" rel="noreferrer">
           <img src="/assets/telegram.svg" alt="telegram" className="w-1/2 h-1/2" />
         </a>
-        <a className="social-icon" href="https://www.instagram.com/vakooo" target="_blank" rel="noreferrer">
-          <img src="/assets/instagram.svg" alt="instagram" className="w-1/2 h-1/2" />
-        </a>
       </div>
 
       <p className="text-white-500">© {new Date().getFullYear()} Vardges Vardanyan. All rights reserved.</p>
