@@ -24,35 +24,36 @@ export const navLinks = [
 export const clientReviews = [
   {
     id: 1,
-    name: 'Emily Johnson',
-    position: 'Marketing Director at GreenLeaf',
-    img: 'assets/review1.png',
+    name: 'Heike Hengstmann',
+    position: 'Product Owner (PSPO I) at Invia Group Germany',
+    img: 'https://media.licdn.com/dms/image/v2/D4D03AQExxIUZoqj8Zg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1712602708742?e=1764806400&v=beta&t=XTz7Dw2dm-UGdH2zRxVA5-IKc-qKR5JekUNowAClohQ',
     review:
-      'Working with Vardges was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.',
+      'Since more than 2 1/2 years I have been working closely with Vardges in our team at Invia Travel Germany. I can confidently say that he is an exceptional frontend developer with a lot of experience. His attention to detail, reliability and ability to consistently deliver on time make him an invaluable team member. Vardges is not only highly skilled but also a joy to work with, bringing a positive and collaborative spirit to every project. He introduced new colleagues to our projects in an excellent way.\n' +
+      'I highly recommend Vardges for any future opportunities. He will be for sure a great asset to any team.',
   },
   {
     id: 2,
-    name: 'Mark Rogers',
-    position: 'Founder of TechGear Shop',
+    name: 'Robert Mould',
+    position: 'Client at Upwork',
     img: 'assets/review2.png',
     review:
-      'Vardges’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.',
+      'Vardges is an excellent freelancer. Has brilliant communication skills (excellent English) and solid technical skills. I would happily work with Vardges again and recommend him to the Upwork community.',
   },
   {
     id: 3,
-    name: 'John Dohsas',
-    position: 'Project Manager at UrbanTech ',
+    name: 'Rocky Lua',
+    position: 'Client at Upwork ',
     img: 'assets/review3.png',
     review:
-      'I can’t say enough good things about Vardges. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.',
+      "One of the MOST amazing developers you can possibly find! Very prompt, very bright, very thoughtful in his work and the end result wow'd me!",
   },
   {
     id: 4,
-    name: 'Ether Smith',
-    position: 'CEO of BrightStar Enterprises',
-    img: 'assets/review4.png',
+    name: 'Vardges Musheghyan',
+    position: 'Software Engineer at PicsArt',
+    img: 'https://media.licdn.com/dms/image/v2/D5603AQGYIPBBajkg3w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1677742838310?e=1764806400&v=beta&t=F9Y225HnNx5mtuDg8Z4GX_bp14q8t_tx7PKPIPZWLb4',
     review:
-      'Vardges was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.',
+      "I had the privilege of being one of Vardges' first students when he was teaching at Picsart Academy, he is an exceptional software engineer and an outstanding educator. I work now at Picsart.",
   },
 ];
 

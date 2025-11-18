@@ -6,7 +6,7 @@ import gsap from 'gsap';
 const Target = (props) => {
   const targetRef = useRef();
   const { scene } = useGLTF(
-    'https://files.renderdraw.us/renderings/public/gltf/clubcar/dtest3/XRT_850draco-processed.gltf',
+    'models/vako.glb',
   );
 
   useGSAP(() => {
